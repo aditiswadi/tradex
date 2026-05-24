@@ -1,0 +1,9 @@
+app:
+  name: tradex
+  env: development
+
+server:
+  port: 8000
+
+database:
+  url: postgres://postgres:postgres@localhost:5432/tradex_db?sslmode=disable
